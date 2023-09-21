@@ -103,11 +103,8 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-# REST_FRAMEWORK = {
-#     'DEFAULT_AUTHENTICATION_CLASSES': [
-#         'rest_framework.authentication.',
-#     ],
-# }
+STATIC_URL = "static/"
+STATIC_ROOT = "static"
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
